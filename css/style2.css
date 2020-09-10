@@ -23,6 +23,9 @@ body {
     font-family: 'Open Sans';
     background: #fafafa;
     width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
 
 }
 
