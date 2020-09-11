@@ -12,6 +12,10 @@
 
 /* start navigation */
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 .header_area .main-menu .navbar .navbar-brand {
 
     font-weight: 500;
@@ -153,7 +157,7 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-}
+
 
 .contain:after {
     content: '';

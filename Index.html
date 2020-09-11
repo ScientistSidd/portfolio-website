@@ -338,11 +338,16 @@
                         <div class="left"></div>
                         <div class="right">
                             <h2>Contact Me</h2>
-                            <input type="text" class="field" placeholder="Your Name">
-                            <input type="text" class="field" placeholder="Your Email">
-                            <input type="text" class="field" placeholder="Phone">
-                            <textarea placeholder="Message" class="field"></textarea>
-                            <button type="button" class="btn button primary-button mr-4 text-uppercase">Send</button>
+                            <form class="contact-form" action="contactform.php" method="post">
+                                <input type="text" class="field" placeholder="Name">
+                                <input type="text" class="field" placeholder="Email">
+                                <input type="text" class="field" placeholder="Phone">
+                                <textarea placeholder="Message" class="field"></textarea>
+                                <label>What is 2+2?</label>
+                                <input name="human" placeholder="Type Here">
+                                <button type="button"
+                                    class="btn button primary-button mr-4 text-uppercase">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
