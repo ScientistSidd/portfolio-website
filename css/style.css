@@ -1,7 +1,7 @@
 /* import fonts from fonts.css */
 
 @import url(./fonts.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap')
+
 /* Import variables */
 
 @import url(./partials/_variables.css);
@@ -57,7 +57,7 @@ html {
 .site-main .site-banner .site-title h3 {
     padding-top: 35%;
     font-weight: 500;
-    font-family: 'Roboto';
+
 }
 
 .site-main .site-banner .site-title h3::after {
@@ -68,14 +68,12 @@ html {
     display: inline-block;
     margin-left: 0%;
     transform: translateY(-10px);
-    font-family: 'Roboto';
 
 }
 
 .site-main .site-banner .site-title h1 {
     font-size: 5rem;
     margin-left: 0;
-    font-family: 'Roboto';
 }
 
 .site-main .site-banner .site-title h4 {
