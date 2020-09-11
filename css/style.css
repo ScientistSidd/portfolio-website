@@ -248,6 +248,8 @@ textarea {
     outline: none;
     cursor: pointer;
     transition: .3s;
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.tff';
 }
 
 .btn1:hover {
